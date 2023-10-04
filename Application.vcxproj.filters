@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Shader">
+      <UniqueIdentifier>{d0ec6a6c-1ef1-4b3c-9adc-c95ce2fdc2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GLAD">
+      <UniqueIdentifier>{545c3777-2d43-4cd5-a69f-a6a3b9239d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\StreamToFile">
+      <UniqueIdentifier>{2fc9b463-0a4c-4382-a558-de635168a54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\STB">
+      <UniqueIdentifier>{f6f3803e-8124-4b87-a174-915bccdd43ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mesh">
+      <UniqueIdentifier>{7742bf6b-ab7b-45f0-b89b-169fa2ae167c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{e8d841a4-dfb5-4e0d-92ae-3d3949c60952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Quad">
+      <UniqueIdentifier>{f3ca1ecf-ba58-474e-abfd-5963676950b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Framebuffer">
+      <UniqueIdentifier>{863a8618-b0ab-4f28-ba68-a0f3e2315a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Texture">
+      <UniqueIdentifier>{89dd32c0-0b7d-48ab-96cb-da5973cd17f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ArcballCamera">
+      <UniqueIdentifier>{7231a731-1c81-43b3-a44b-f38dde47de07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Application.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Glad\glad.cpp">
+      <Filter>Исходные файлы\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Shader\Shader.cpp">
+      <Filter>Исходные файлы\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\StreamToFile\StreamToFile.cpp">
+      <Filter>Исходные файлы\StreamToFile</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Mesh\Mesh.cpp">
+      <Filter>Исходные файлы\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Model\Model.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Quad\Quad.cpp">
+      <Filter>Исходные файлы\Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Framebuffer\Framebuffer.cpp">
+      <Filter>Исходные файлы\Framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Texture\Texture.cpp">
+      <Filter>Исходные файлы\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ArcballCamera\ArcballCamera.cpp">
+      <Filter>Исходные файлы\ArcballCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\Application.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Stb\stb_image.h">
+      <Filter>Исходные файлы\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\StreamToFile\StreamToFile.h">
+      <Filter>Исходные файлы\StreamToFile</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Shader\Shader.h">
+      <Filter>Исходные файлы\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Mesh\Mesh.h">
+      <Filter>Исходные файлы\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Model\Model.h">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Quad\Quad.h">
+      <Filter>Исходные файлы\Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Framebuffer\Framebuffer.h">
+      <Filter>Исходные файлы\Framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Texture\Texture.h">
+      <Filter>Исходные файлы\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\ArcballCamera\ArcballCamera.h">
+      <Filter>Исходные файлы\ArcballCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
